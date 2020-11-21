@@ -17,7 +17,7 @@ class UserController extends AbstractController
     {
         $user = $this->request->input('user', 'Hyperf');
         $method = $this->request->getMethod();
-        //6555
+        //6555  8888
 
         return [
             'method' => $method,
